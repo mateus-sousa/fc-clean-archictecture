@@ -1,4 +1,4 @@
-module github.com/devfullcycle/20-CleanArch
+module github.com/mateus-sousa/fc-clean-architecture
 
 go 1.19
 

@@ -8,13 +8,13 @@ package main
 
 import (
 	"database/sql"
-	"github.com/devfullcycle/20-CleanArch/internal/entity"
-	"github.com/devfullcycle/20-CleanArch/internal/event"
-	"github.com/devfullcycle/20-CleanArch/internal/infra/database"
-	"github.com/devfullcycle/20-CleanArch/internal/infra/web"
-	"github.com/devfullcycle/20-CleanArch/internal/usecase"
-	"github.com/devfullcycle/20-CleanArch/pkg/events"
 	"github.com/google/wire"
+	"github.com/mateus-sousa/fc-clean-architecture/internal/entity"
+	"github.com/mateus-sousa/fc-clean-architecture/internal/event"
+	"github.com/mateus-sousa/fc-clean-architecture/internal/infra/database"
+	"github.com/mateus-sousa/fc-clean-architecture/internal/infra/web"
+	"github.com/mateus-sousa/fc-clean-architecture/internal/usecase"
+	"github.com/mateus-sousa/fc-clean-architecture/pkg/events"
 )
 
 import (

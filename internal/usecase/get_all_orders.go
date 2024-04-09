@@ -1,7 +1,7 @@
 package usecase
 
 import (
-	"github.com/devfullcycle/20-CleanArch/internal/entity"
+	"github.com/mateus-sousa/fc-clean-architecture/internal/entity"
 )
 
 type GetAllOrdersUseCase struct {
