@@ -30,5 +30,5 @@ message Orders {
 
 service OrderService {
   rpc CreateOrder(CreateOrderRequest) returns (CreateOrderResponse) {}
-  rpc GetAll(blank) returns (Orders) {}
+  rpc ListOrders(blank) returns (Orders) {}
 }

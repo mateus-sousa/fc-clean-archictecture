@@ -38,7 +38,7 @@ func (s *OrderService) CreateOrder(ctx context.Context, in *pb.CreateOrderReques
 	}, nil
 }
 
-func (s *OrderService) GetAll(context.Context, *pb.Blank) (*pb.Orders, error) {
+func (s *OrderService) ListOrders(context.Context, *pb.Blank) (*pb.Orders, error) {
 	orders, err := s.GetAllOrdersUseCase.Execute()
 	if err != nil {
 		return nil, err
